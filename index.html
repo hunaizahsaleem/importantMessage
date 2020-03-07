@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		button{
+			font-size:70px;
+			background: #443277;
+			color:yellow;
+			display: block;
+			border-radius: 25px;
+			cursor: pointer;
+			
+
+
+		}
+		button:hover{
+			background: #773299;
+			color:white;
+			font-family: monospace;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="myFunc()" title="yes click on me"> Please Click on me </button>
+	<p id="demo"></p>
+	<p id="demo2"></p>
+
+
+<script type="text/javascript">
+	var str="Hunaizah saleem is missing you so much." +"<br>";
+	var str2=str.repeat(15000);
+
+	
+	function myFunc(){
+
+	document.getElementById("demo").innerHTML=str2;
+	document.getElementById("demo").style.color="blue";
+	document.getElementById("demo").style.backgroundColor="orange";
+	document.getElementById("demo").style.fontSize="25px";
+	document.getElementById("demo2").innerHTML="Thank you for reading"+"<br>"+"Good bye";
+	document.getElementById("demo2").style.fontSize="70px";
+
+
+	alert("Congratuation you have clicked successfully");
+
+
+}
+</script>
+</script>
+</body>
+</html>
